@@ -43,7 +43,7 @@ public class RemoveNthFromEnd {
 		}
 	}
 
-	private void printListNode(ListNode node) {
+	public static void printListNode(ListNode node) {
 		System.out.println(node.val);
 		if (node.next != null) {
 			printListNode(node.next);
