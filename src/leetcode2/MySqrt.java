@@ -1,5 +1,11 @@
 package leetcode2;
 
+/**
+ * 69. x的平方根
+ * 实现 int sqrt(int x) 函数。
+ * @author stick
+ *
+ */
 public class MySqrt {
 
 	public int mySqrt(int x) {
