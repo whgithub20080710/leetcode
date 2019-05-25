@@ -13,6 +13,35 @@ import util.ListNodeUtil;
  */
 public class ListNodePartition {
 
+	public ListNode partition2(ListNode head, int x) {
+		ListNode dummy = new ListNode(0);
+		dummy.next = head;
+		ListNode tail = dummy;
+		ListNode find = head;
+		ListNode find_follow = dummy;
+		while (find != null) {
+			if (find.val < x) {
+				if (find == head || find_follow == tail) {// 用于处理两种特殊情况
+					find_follow = find;
+					find = find.next;
+					tail = tail.next;
+					continue;
+				}
+				ListNode tmp = tail.next;// 取下find节点放到tail后方
+				find_follow.next = find.next;
+				tail.next = find;
+				find.next = tmp;
+
+				tail = find;// 更新指针
+				find = find_follow.next;
+			} else {
+				find_follow = find;
+				find = find.next;
+			}
+		}
+		return dummy.next;
+	}
+
 	public ListNode partition(ListNode head, int x) {
 		ListNode dummyHead1 = new ListNode(0);
 		ListNode dummyHead2 = new ListNode(0);
