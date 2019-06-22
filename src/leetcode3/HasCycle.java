@@ -4,7 +4,7 @@ import leetcode.ListNode;
 
 /**
  * 141. 环形链表
- * 给定一个链表，判断链表中是否有环。
+ * 给定一个链表，判断链表中是否 有环。
  * 
  * @author stick
  *
