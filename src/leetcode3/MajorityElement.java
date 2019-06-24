@@ -1,5 +1,7 @@
 package leetcode3;
 
+import java.util.Arrays;
+
 /**
  * 众数
  * @author stick
@@ -26,4 +28,9 @@ public class MajorityElement {
 
 		return -1;
 	}
+	
+	public int majorityElement2(int[] nums) {
+        Arrays.sort(nums);
+        return nums[nums.length/2];
+    }
 }
