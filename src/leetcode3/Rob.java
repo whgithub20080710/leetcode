@@ -26,5 +26,10 @@ public class Rob {
 		}
 		return dp[n - 1];
 	}
+	
+	public static void main(String[] args) {
+		Rob test = new Rob();
+		System.out.println(test.rob(new int[] {1,0,2,0,4,5,10}));
+	}
 
 }
