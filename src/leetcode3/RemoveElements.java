@@ -2,6 +2,12 @@ package leetcode3;
 
 import leetcode.ListNode;
 
+/**
+ * 203. 移除链表元素
+ * 
+ * @author stick
+ *
+ */
 public class RemoveElements {
 
 	public ListNode removeElements(ListNode head, int val) {
@@ -19,4 +25,8 @@ public class RemoveElements {
         }
         return dummyNode.next;
     }
+	
+	public static void main(String[] args) {
+		
+	}
 }
