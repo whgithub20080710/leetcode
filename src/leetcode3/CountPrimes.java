@@ -26,4 +26,9 @@ public class CountPrimes {
         
         return res; 
     }
+	
+	public static void main(String[] args) {
+		CountPrimes test = new CountPrimes();
+		System.out.println(test.countPrimes(10));
+	}
 }
