@@ -1,5 +1,12 @@
 package leetcode3;
 
+/**
+ * 204. 计数质数
+ * 统计所有小于非负整数 n 的质数的数量。
+ * 
+ * @author stick
+ *
+ */
 public class CountPrimes {
 
 	public int countPrimes(int n) {
