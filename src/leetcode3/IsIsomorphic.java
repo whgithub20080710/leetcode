@@ -25,4 +25,9 @@ public class IsIsomorphic {
 		}
 		return true;
 	}
+	
+	public static void main(String[] args) {
+		IsIsomorphic test = new IsIsomorphic();
+		System.out.println(test.isIsomorphic("abccda", "qczzdq"));
+	}
 }
