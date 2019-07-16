@@ -3,6 +3,11 @@ package leetcode3;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 205. 同构字符串
+ * @author stick
+ *
+ */
 public class IsIsomorphic {
 
 	public boolean isIsomorphic(String s, String t) {
