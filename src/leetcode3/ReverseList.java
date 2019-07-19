@@ -15,4 +15,8 @@ public class ReverseList {
 	    }
 	    return prev;
 	}
+	
+	public static void main(String[] args) {
+		
+	}
 }
