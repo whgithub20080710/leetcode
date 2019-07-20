@@ -1,6 +1,7 @@
 package leetcode3;
 
 import leetcode.ListNode;
+import util.ListNodeUtil;
 
 public class ReverseList {
 
@@ -17,6 +18,9 @@ public class ReverseList {
 	}
 	
 	public static void main(String[] args) {
-		
+		ReverseList test = new ReverseList();
+		ListNode head = ListNodeUtil.arrayToListNode(new int[] { 1, 2, 3, 2, 6, 2 });
+		test.reverseList1(head);
+		ListNodeUtil.printListNode(head);
 	}
 }
