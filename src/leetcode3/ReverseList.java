@@ -3,6 +3,11 @@ package leetcode3;
 import leetcode.ListNode;
 import util.ListNodeUtil;
 
+/**
+ * 206. 反转链表
+ * @author stick
+ *
+ */
 public class ReverseList {
 
 	public ListNode reverseList1(ListNode head) {
