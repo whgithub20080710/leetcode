@@ -20,7 +20,7 @@ import java.util.List;
 public class CombinationSum {
 
 	public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> listAll=new ArrayList<List<Integer>>();
+        List<List<Integer>> listAll=new ArrayList<>();
         List<Integer> list=new ArrayList<Integer>();
         //排序
         Arrays.sort(candidates);
